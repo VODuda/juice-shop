@@ -2,7 +2,7 @@ name: "ZAP Baseline Scan"
 
 on:
   schedule:
-    - cron:  '5 18 * * 4'
+    - cron:  '20 18 * * 4'
 
 jobs:
   zap_scan:
